@@ -1,0 +1,15 @@
+App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter > *:not(:first-child) {
+    margin-left: 20px;
+  }
+  
